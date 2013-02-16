@@ -1,0 +1,75 @@
+BMW,  X5, 35000
+Color:
+Fort Knox Gold: 0
+Liquid Grey: 0
+Infra-Red: 0
+Grabber Green: 0
+
+Transmission:
+Automatic: 0
+Standard: -815
+
+Brakes:
+Standard: 0
+ABS with Advance Trac: 1625
+
+Side Impact Air Bags:
+None: 0
+Selected: 350
+
+Power Moonroof:
+None: 0
+Selected: 595
+
+Engine:
+2.0L 16V Zetec: 0
+2.3L 4-Cyl.PZEV(CA): 1415
+2.3L 4-Cyl.PZEV(MA): 1415
+
+Safety:
+Perimeter Alarm System: 125
+Side Impact Air Bags: 350
+
+Audi, Q7, 34000
+Color:
+Fort Knox Gold: 0
+Liquid Grey: 0
+Infra-Red: 0
+Grabber Green: 0
+
+Transmission:
+Automatic: 0
+Standard: -815
+
+Brakes:
+Standard: 0
+ABS: 400
+ABS with Advance Trac: 1625
+
+Ford Wagon, ZTW, 19000
+Color:
+Fort Knox Gold: 0
+Liquid Grey: 0
+Infra-Red: 0
+Grabber Green: 0
+Sangria Red: 0
+CD Silver: 0
+Pitch Black: 0
+Cloud 9 White: 0
+
+Transmission:
+Automatic: 0
+Standard: -815
+
+Brakes:
+Standard: 0
+ABS: 400
+ABS with Advance Trac: 1625
+
+Side Impact Air Bags:
+None: 0
+Selected: 350
+
+Power Moonroof:
+None: 0
+Selected: 595

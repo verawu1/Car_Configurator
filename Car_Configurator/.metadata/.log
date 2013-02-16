@@ -1,0 +1,105 @@
+!SESSION 2012-10-03 16:14:27.246 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_35
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/chenkaikuang/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/chenkaikuang/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2012-10-03 16:15:04.721
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.genuitec.eclipse.core 1 0 2012-10-03 16:15:37.641
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY org.eclipse.ui.workbench 4 2 2012-10-03 16:15:49.776
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:774)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:569)
+	at org.eclipse.swt.widgets.Menu.getItems(Menu.java:564)
+	at org.eclipse.jface.action.MenuManager.getMenuItems(MenuManager.java:693)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:782)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:682)
+	at org.eclipse.ui.internal.menus.WorkbenchMenuService.updateManagers(WorkbenchMenuService.java:330)
+	at org.eclipse.ui.internal.menus.WorkbenchMenuService$3.activityManagerChanged(WorkbenchMenuService.java:292)
+	at org.eclipse.ui.internal.activities.AbstractActivityManager.fireActivityManagerChanged(AbstractActivityManager.java:51)
+	at org.eclipse.ui.internal.activities.ProxyActivityManager$1.activityManagerChanged(ProxyActivityManager.java:50)
+	at org.eclipse.ui.internal.activities.AbstractActivityManager.fireActivityManagerChanged(AbstractActivityManager.java:51)
+	at org.eclipse.ui.internal.activities.MutableActivityManager.updateListeners(MutableActivityManager.java:600)
+	at org.eclipse.ui.internal.activities.MutableActivityManager.setEnabledActivityIds(MutableActivityManager.java:572)
+	at org.eclipse.ui.internal.activities.ws.WorkbenchActivitySupport.setEnabledActivityIds(WorkbenchActivitySupport.java:320)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin.earlyStartup(PerspectivePlugin.java:139)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:73)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2470)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 4 2012-10-03 16:15:49.780
+!MESSAGE Unhandled Exception
+
+!ENTRY com.genuitec.myeclipse.perspective 4 0 2012-10-03 16:15:49.789
+!MESSAGE Unable to execute early startup code for an extension
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:774)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:569)
+	at org.eclipse.swt.widgets.Menu.getItems(Menu.java:564)
+	at org.eclipse.jface.action.MenuManager.getMenuItems(MenuManager.java:693)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:782)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:682)
+	at org.eclipse.ui.internal.menus.WorkbenchMenuService.updateManagers(WorkbenchMenuService.java:330)
+	at org.eclipse.ui.internal.menus.WorkbenchMenuService$3.activityManagerChanged(WorkbenchMenuService.java:292)
+	at org.eclipse.ui.internal.activities.AbstractActivityManager.fireActivityManagerChanged(AbstractActivityManager.java:51)
+	at org.eclipse.ui.internal.activities.ProxyActivityManager$1.activityManagerChanged(ProxyActivityManager.java:50)
+	at org.eclipse.ui.internal.activities.AbstractActivityManager.fireActivityManagerChanged(AbstractActivityManager.java:51)
+	at org.eclipse.ui.internal.activities.MutableActivityManager.updateListeners(MutableActivityManager.java:600)
+	at org.eclipse.ui.internal.activities.MutableActivityManager.setEnabledActivityIds(MutableActivityManager.java:572)
+	at org.eclipse.ui.internal.activities.ws.WorkbenchActivitySupport.setEnabledActivityIds(WorkbenchActivitySupport.java:320)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin.earlyStartup(PerspectivePlugin.java:139)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:73)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2470)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-10-03 16:15:49.934
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/130/1/.cp/snippets/html/css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-10-03 16:15:49.989
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/130/1/.cp/snippets/html/forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-10-03 16:15:50.024
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/130/1/.cp/snippets/html/html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-10-03 16:15:50.044
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/130/1/.cp/snippets/html/htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-10-03 16:15:50.078
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/130/1/.cp/snippets/html/javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-10-03 16:15:50.111
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/130/1/.cp/snippets/jsp/jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-10-03 16:15:50.195
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/130/1/.cp/snippets/jsp/jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-10-03 16:15:50.233
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/130/1/.cp/snippets/jsp/struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-10-03 16:15:50.284
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/130/1/.cp/snippets/jsp/struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-10-03 16:15:50.314
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/130/1/.cp/snippets/jsp/struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-10-03 16:15:50.380
+!MESSAGE Installed snippet library: /Applications/MyEclipse/MyEclipse 10.app/Contents/Profile/configuration/org.eclipse.osgi/bundles/130/1/.cp/snippets/jsp/struts_tiles_snippets.xml
